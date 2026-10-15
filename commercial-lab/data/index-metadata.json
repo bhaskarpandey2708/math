@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-10-15",
+  "derived_from": "bhaskarpandey2708/math main",
+  "catalog_sha": "2c68c086fff36a5806c936ad1659cf1a8d0b6dd9",
+  "overview_sha": "8f3b8cb6d5c4f5f7f0ac216b2c6db52b4b34b2fd",
+  "families": 372,
+  "pdf_links": 718,
+  "subject_groups": 17,
+  "lean_scopes_listed": 242,
+  "source_reported_manuscripts": 719,
+  "gap_note": "The catalogue reports 719 manuscripts; this parser recognized 718 unique relative preprints PDF links. Audit the unmatched item before describing the index as complete.",
+  "method": "Regex extraction from CONTENTS.md and subject headings from overview.tex. Lean scope status is a catalogue reference, not independent verification."
+}
