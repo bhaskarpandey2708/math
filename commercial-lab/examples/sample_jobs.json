@@ -1,0 +1,44 @@
+{
+  "machines": 3,
+  "deadline": 4,
+  "jobs": [
+    {
+      "id": "raw_material"
+    },
+    {
+      "id": "quality_check",
+      "after": [
+        "raw_material"
+      ]
+    },
+    {
+      "id": "assembly_a",
+      "after": [
+        "quality_check"
+      ]
+    },
+    {
+      "id": "assembly_b",
+      "after": [
+        "quality_check"
+      ]
+    },
+    {
+      "id": "packaging",
+      "after": [
+        "assembly_a",
+        "assembly_b"
+      ]
+    },
+    {
+      "id": "invoice"
+    },
+    {
+      "id": "dispatch",
+      "after": [
+        "packaging",
+        "invoice"
+      ]
+    }
+  ]
+}
